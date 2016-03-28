@@ -1,0 +1,45 @@
+body
+{
+	background: url(../images/noise.png);	
+}
+.slider-container{
+	width: 1350%;
+	overflow: hidden;
+}
+.slider-wrapper {
+	height: 9999px;
+	height: 380px;
+	position: relative;
+	transition: left 500ms linear;
+}
+.slide {
+	float: left;
+	position: relative;
+	width:1350%;
+	height:380px;
+	background-color: green;
+}
+.slider-nav{
+	height: 40px;
+	width: 100%;
+	margin-top: 1.5em;
+}
+.slider-nav button {
+	border:none;
+	display: block;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+.slider-nav button.slider-previous{
+	float: left;
+	background-image: url("http://alexqq.qnits.ru/design/images/arrow-left-01-128.png");
+	background-size: 40px;
+}
+.slider-nav button.slider-next{
+	float: right;
+	background-image: url("http://www.clker.com/cliparts/g/w/0/o/s/y/green-and-gold-next-icon-th.png");
+	background-size: 40px;
+}
