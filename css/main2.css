@@ -1,4 +1,10 @@
-body{
-background-color:  
-#36B58D;
+img{
+width: 600px;
+height: 400px;
+horizontal-align: center;
+}
+#myCarousel
+{
+	width: 1366px;
+height: 400px;
 }

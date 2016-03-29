@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/main2.css">
+  <meta charset="utf-8"/> 
+</head>
+<body>
+<script type="text/javascript">
+	$function() {
+    $('.carousel').carousel({
+			interval:1000
+		});
+	}
+</script>
+
+
+<div style="background: green;" align="center" id="myCarousel" class="carousel slide" data-ride="carousel">
+<!--indicators-->
+<ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+<!-- Wrapper for slides -->
+<div  align="center"  class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="http://www.waivingentropy.com/wp-content/uploads/2013/03/Bavarian-Alps.jpg" alt="Chania">
+    </div>
+
+    <div class="item">
+      <img src="http://www.hdwallpaperup.com/wp-content/uploads/2015/08/Seascape-Mountains-Greenery-1366x768.jpg" alt="Chania">
+    </div>
+
+    <div class="item">
+      <img src="http://cdn.desktopwallpapers4.me/wallpapers/nature/1366x768/4/40218-eyjafjallajokull-1366x768-nature-wallpaper.jpg" alt="Flower">
+    </div>
+
+    <div class="item">
+      <a class="btn btn-error" href="http://google.com/">ffffffffff</a>
+      <br>
+      <div class="input-prepend">
+		<span class="add-on"><i class="icon-user"></i></span><input class="span2" size="16" type="text" placeholder="Имя пользователя" ></input>
+	  </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span  class="sr-only"><i style="margin:12px;" class="icon-step-backward icon-white"></i></span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <!--<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
+    <!--<span class="sr-only"><i class="icon-step-backward"></i></span>-->
+  </a>
+</div>
+
+</div>
+</body>
+</html>
