@@ -1,45 +1,105 @@
-body
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.page-wrapper {
+    min-height: 100%;
+    margin-bottom: -197px;
+}
+* html .page-wrapper {
+    height: 100%;
+}
+.page-buffer {
+    height: 197px;
+}
+body{
+	background: #516B8A;
+	background-size: cover;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+img{
+width: 600px;
+height: 400px;
+horizontal-align: center;
+}
+#myCarousel
 {
-	background: url(../images/noise.png);	
+	width: 940px;
+    height: 400px;
 }
-.slider-container{
-	width: 1350%;
-	overflow: hidden;
+h1{
+	text-align:center;
 }
-.slider-wrapper {
-	height: 9999px;
-	height: 380px;
-	position: relative;
-	transition: left 500ms linear;
+h4{
+    color: white;
 }
-.slide {
-	float: left;
-	position: relative;
-	width:1350%;
-	height:380px;
-	background-color: green;
+.YellowLink{
+	color: yellow;
 }
-.slider-nav{
-	height: 40px;
-	width: 100%;
-	margin-top: 1.5em;
+a:hover{
+color: #B0B0B0;
+text-decoration: none;
+cursor: pointer;
 }
-.slider-nav button {
-	border:none;
-	display: block;
-	width: 40px;
-	height: 40px;
-	cursor: pointer;
-	background-color: transparent;
-	background-repeat: no-repeat;
+#testspan{
+	height: 400px;
+	width: 940px;
 }
-.slider-nav button.slider-previous{
-	float: left;
-	background-image: url("http://alexqq.qnits.ru/design/images/arrow-left-01-128.png");
-	background-size: 40px;
+#autorization_container {
+    align:center;
+    background: #fff;
+    height: contain;
 }
-.slider-nav button.slider-next{
-	float: right;
-	background-image: url("http://www.clker.com/cliparts/g/w/0/o/s/y/green-and-gold-next-icon-th.png");
-	background-size: 40px;
+#floater{
+    float       : left;
+    height      : 50%;
+    margin-bottom   : -120px;
+}
+#content{
+    clear       : both;
+    height      : 240px;
+    position    : relative;
+}
+#LogInContainer{
+    height:200px;
+    padding-top:80px;
+    vertical-align:center;
+}
+@font-face {
+    font-family: 'Conv_HelveticaNeueCyr-Light';
+    src: url('../fonts/HelveticaNeueCyr-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+.testingis{
+    font-family: 'Conv_HelveticaNeueCyr-Light';
+    font-size: 2em;
+    color:white;
+}
+#kudah{
+    height: 80px;
+    width: 80px;
+}
+span:hover {
+    color: yellow;
+    font-size: 2.2em;
+}
+.newsTable {
+    color: black;
+    background:#E2E2E2;
+}
+.newsTable th {
+    background-color: #7E7E86;
+    color: white;
+    font-family: 'Conv_HelveticaNeueCyr-Light';
+}
+.LabelText {
+    color:white; 
+    font-family: 'Conv_HelveticaNeueCyr-Light';
+    font-size: 16pt;
+    text-align: right;
+    width: 20%;
 }

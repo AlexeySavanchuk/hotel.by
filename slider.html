@@ -3,21 +3,20 @@
 <head>
   <title></title>
   <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="/css/main2.css">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
   <meta charset="utf-8"/> 
+  <script type="text/javascript" src="/js/jquery-1.12.2.js"></script>
+  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/js/carousel.js"></script>
 </head>
 <body>
-<script type="text/javascript">
-	$function() {
-    $('.carousel').carousel({
-			interval:1000
-		});
-	}
-</script>
 
 
-<div style="background: green;" align="center" id="myCarousel" class="carousel slide" data-ride="carousel">
-<!--indicators-->
+<div class="row">
+<div class="span12" >
+<div align="center" id="myCarousel" class="carousel slide" data-ride="carousel">
+
+  <!--indicators-->
 <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -26,9 +25,13 @@
   </ol>
 
 <!-- Wrapper for slides -->
-<div  align="center"  class="carousel-inner" role="listbox">
+<div  align="center" class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="http://www.waivingentropy.com/wp-content/uploads/2013/03/Bavarian-Alps.jpg" alt="Chania">
+      <div id="testspan" class="span12" style="background: url('http://www.waivingentropy.com/wp-content/uploads/2013/03/Bavarian-Alps.jpg');"  >
+      e<br/>
+      <h1>regregr</h1><br>
+      dfdf
+      </div>      
     </div>
 
     <div class="item">
@@ -54,11 +57,12 @@
     <span  class="sr-only"><i style="margin:12px;" class="icon-step-backward icon-white"></i></span>
   </a>
   <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <!--<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
-    <!--<span class="sr-only"><i class="icon-step-backward"></i></span>-->
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only"><i style="margin:12px;" class="icon-step-forward icon-white"></i></span>
   </a>
 </div>
-
+</div>
+</div>
 </div>
 </body>
 </html>
